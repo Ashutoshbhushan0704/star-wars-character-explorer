@@ -82,7 +82,7 @@ describe('Star Wars Character App', () => {
         }),
     }
 
-    vi.spyOn(global, 'fetch').mockImplementation((input: RequestInfo | URL, init?: RequestInit) => {
+    vi.spyOn(globalThis, 'fetch').mockImplementation((input: RequestInfo | URL) => {
       const url = typeof input === 'string' ? input : input instanceof URL ? input.toString() : input.url
       const normalizedUrl = url.endsWith('/') ? url : `${url}/`
 
