@@ -23,4 +23,7 @@
 - SWAPI responses are memoized in-memory to avoid redundant fetches during search/filter interactions.
 - Filters reset the page index and modal state to keep UI consistent whenever result sets change.
 
->>>>>>> e9dbc2c (Star Wars Character explorer)
+DEPLOYMENT LINK ON VERCEL  - https://star-wars-character-explorer.vercel.app/
+
+
+
